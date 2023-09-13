@@ -1,0 +1,93 @@
+@media (max-width: 1170px){
+    body> .first> .about{
+        padding: 0px 0px 0px 0px;
+    }
+
+    body> .first> .about>.Inames{
+        font-size: 20px;
+    }
+
+    body> .first> .about>.Iabout{
+        font-size: 16px;
+    }
+    
+    body> .first> .about>div>a>i{
+        font-size: 20px;
+        margin-right: 30px;
+    }
+
+    body> .second> .about{
+        color: white;
+    }
+}
+
+@media (max-width: 890px){
+    body> .first> .about{
+        padding: 0px 0px 0px 0px;
+    }
+
+    body> .first> .about>.Inames{
+        font-size: 18px;
+    }
+
+    body> .first> .about>.Iabout{
+        font-size: 14px;
+    }
+    
+    body> .first> .about>div>a>i{
+        font-size: 12px;
+        margin-right: 25px;
+    }
+
+    body> .second> .about{
+        color: white;
+    }
+}
+
+@media (max-width: 740px){
+    body> .first{
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+     }
+
+     body> .first> .image{
+        height: 100%;
+        width: 100%; 
+        display: flex;
+        justify-content: center;
+    }
+
+    body> .first> .about{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 30px 80px;
+        color: #000421;
+        text-align: center;
+    }
+
+    body> .second> .about{
+        color: white;
+    }
+
+    .instructor{
+        margin-bottom: 30px;
+    }
+
+    body> .first> .about>.Iabout{
+        text-align: center !important;
+    }
+
+    body> .first> .about>div>a>i{
+        text-align: center;
+        margin: 10px;
+    }
+
+    body> .first> .about> h5{
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+}

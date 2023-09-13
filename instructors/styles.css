@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.instructor{
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: 600;
+}
+
+body> .first{
+   display: flex;
+   justify-content: center;
+}
+
+
+body> .first> .image{
+    height: 50%;
+    width: 50%; 
+    display: flex;
+    justify-content: center;
+}
+
+body> .first> .image>img{
+    height: 50%;
+    width: 50%;
+}
+
+
+body> .first> .about{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    width: 30%;
+    padding: 0px 40px 0px 0px;
+    color: #000421;
+}
+
+
+body> .first> .about>.Inames{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+body> .first> .about> h5{
+    font-weight: 700;
+    color: #f7941d;
+    margin-bottom: 15px;
+}
+
+body> .first> .about>.Iabout{
+    font-size: 20px;
+    text-align: left !important;
+}
+
+body> .first> .about>div>a>i{
+    font-size: 30px;
+    margin-right: 40px;
+    border: 1px solid #000421;
+    padding: 10px;
+    border-radius: 10px;
+    color: #000421;
+}
+
+body> .first> .about>div>a>i:hover{
+    color: #f7941d;
+}
+
+body> .second{
+    justify-content: right !important;
+    background-color: #000421;
+    padding: 40px 0px;
+    color: white !important;
+ }
+ 
+ body> .second> .about{
+    color: white;
+}
+
+body> .second> .about>div>a>i{
+    color: white;
+    border: 1px solid white;
+}
+
+
